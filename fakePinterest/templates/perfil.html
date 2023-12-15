@@ -14,7 +14,7 @@ Perfil - {{ usuario.username }}
 <div class="container">
 {% if form %}
 
-        <form method="POST" enctype="multipart/form-data" class="bloco-add-img"
+        <form method="POST" enctype="multipart/form-data" class="bloco-add-img">
            {{ form.csrf_token }}
           <h2>{{ usuario.username }} - Enviar foto</h2>
 
